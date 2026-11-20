@@ -2,6 +2,10 @@ function addTask() {
 
     let taskInput = document.getElementById("taskInput");
 
+    if (!validateTask(taskInput.value)) {
+    return;
+}
+
     let task = taskInput.value.trim();
 
     if (task === "") {
@@ -48,4 +52,12 @@ function searchTasks() {
 
     }
 
+}
+function validateTask(task) {
+    if (task.trim() === "") {
+        alert("Please enter a task!");
+        return false;
+    }
+
+    return true;
 }
