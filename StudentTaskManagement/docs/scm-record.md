@@ -34,3 +34,17 @@ GitHub is used to store and share the project among team members.
 ## 6. Conclusion
 
 Configuration Items are identified to ensure that important project components are properly managed, tracked and maintained throughout software development.
+## 7. Baseline Information
+
+**Baseline ID:** BL-01
+
+**Version:** v0.1.0
+
+**Date:** 2026-11-20
+
+**Included Changes:**
+- CR-01 – Search feature implementation.
+
+**Status:** Approved
+
+**Commit:** Add the commit ID of the baseline commit here.
