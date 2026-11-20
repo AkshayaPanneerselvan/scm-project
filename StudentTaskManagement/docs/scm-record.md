@@ -48,3 +48,19 @@ Configuration Items are identified to ensure that important project components a
 **Status:** Approved
 
 **Commit:** Add the commit ID of the baseline commit here.
+
+Branching Strategy
+
+The project uses a Feature Branch Workflow.
+
+main:
+Contains the stable integrated version of the application.
+
+feature/CR-02-ui-update:
+Used by Student A for user interface development.
+
+feature/CR-03-validation:
+Used by Student B for task validation development.
+
+Each developer works independently on a separate feature branch.
+After development and testing, the branches are merged into main.
